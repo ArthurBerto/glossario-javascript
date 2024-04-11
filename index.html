@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="js/db.js"></script>
+    <script src="js/main.js"></script>
+    <link rel="stylesheet" href="css/style.css">
+    <title>Glossário JavaScript</title>
+</head>
+<body>
+    <section class="card">
+        <h1 class="titulo-principal"> <img src="https://static-00.iconduck.com/assets.00/javascript-js-icon-2048x2048-nyxvtvk0.png"/> Bem-vindo ao Dicionário JavaScript!</h1>
+        <p class="texto">
+            Aqui você encontrará definições claras e concisas de vários de termos
+            relacionados ao JavaScript, desde os conceitos básicos até os tópicos 
+            mais avançados.
+        </p>
+        <p class="texto">
+            Nossa missão é fornecer a você um dicionário confiável e fácil de usar 
+            que o ajudará a entender melhor a linguagem JavaScript e a escrever 
+            código mais eficiente.
+        </p>
+        <h2 class="titulo-secundario">Comece sua pesquisa agora!</h2>
+        <p class="texto">
+            Escolha o termo que você deseja buscar na barra de pesquisa abaixo e 
+            explore o mundo do JavaScript!
+        </p>
+        <form action="">
+            <fieldset>
+                <label>Escolha uns dos verbetes abaixo:
+                    <select id="slc-topicos" class="slc-topicos">
+                        <option value="0">Escolha um termo</option>
+                    </select>
+                </label>
+                <label id="lbl-txt-desc">
+                </label>
+                <p id="txt-desc"></p>
+            </fieldset>
+        </form>
+    </section>
+</body>
+</html>
